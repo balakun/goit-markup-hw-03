@@ -14,6 +14,7 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  list-style: none
 }
 
 img {
@@ -161,6 +162,8 @@ align-items: center;
   letter-spacing: 0.02em;
   display: flex;
   gap: 40;
+  padding-top: 24px;
+  padding-bottom: 24px;
   
 }
 
@@ -268,6 +271,11 @@ align-items: center;
 
 /* ============OUR TEAM=========== */
 
+.team-member{
+  padding: 120px 0;
+  
+}
+
 .team_main_title {
   color: #2e2f42;
   text-align: center;
@@ -277,6 +285,22 @@ align-items: center;
   
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.team-list{
+  /* width: calc((100% - 72px ) / 4); */
+  display: flex;
+  justify-content: space-between;
+  width: 1158px;
+}
+
+.list-team-item{
+    background-color: #FFF;
+    border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
+    border: none;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-member{
@@ -292,6 +316,13 @@ align-items: center;
   line-height: 1.2;
   /* 120% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.img-team{
+  display: block;
+  max-width: 100%;
+  margin-bottom: 32px;
 }
 
 .team_text {
@@ -301,11 +332,19 @@ align-items: center;
   line-height: 1.5;
   /* 150% */
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
 }
 
-/* .portfolio-section{
-    background-color: #F4F4FD;
-}  */
+                                  /* ================PORTFOLIO============= */
+
+
+
+.portfolio-section{
+  padding: 120px 0;
+  }
+
+  
+
 .portfolio-main-title {
     
   color: #2e2f42;
@@ -316,7 +355,25 @@ align-items: center;
   /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1158px;
+    }
+
+  .portfolio-list-item{
+     width: 360px;
+     width: calc((100% - 48px) / 3);
+  }
+
+  .img-portfolio{
+    display: block;
+  max-width: 100%;
+  margin-bottom: 32px;
+  }
 
 .portfolio_title {
   color: #2e2f42;
@@ -325,6 +382,7 @@ align-items: center;
   line-height: 1.2;
   /* 120% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 
@@ -334,7 +392,11 @@ align-items: center;
   line-height: 1.5;
   /* 150% */
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
 }
+
+
+/* =========================FOOTER================== */
 
 .footer-block {
   background: #2e2f42;
