@@ -1,7 +1,35 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .link {
@@ -10,6 +38,71 @@ body {
 
 .list-item {
   list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+.container { 
+max-width: 1158px;
+margin: 0 auto;
+padding: 0 15px;
+/* padding-left:  15px;
+padding-right: 15px;  
+margin-left:  auto;
+margin-right:  auto; */
+}
+
+section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+
+/* =======HEADER=========== */
+
+.header-block{
+  border-bottom: 1px solid  #E7E9FC;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-left-list {
+display: flex;
+justify-content: space-between;
+width: 261px;
+column-gap: 40;
+padding-top: 24px;
+padding-bottom: 24px;
+align-items: center;
+
+}
+
+.header-right-list{
+  display: flex;
+  column-gap: 40px;
+  width: 344px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  align-items: center;
 }
 
 .web_logo {
@@ -21,6 +114,7 @@ body {
   /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+   
 }
 
 .studio_logo {
@@ -32,6 +126,9 @@ body {
   /* 116.667% */
   letter-spacing: 0.02em;
   text-transform: uppercase;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 76px;
 }
 .nav_link {
   color: #2e2f42;
@@ -42,7 +139,16 @@ body {
   line-height: 1.5;
   /* 150% */
   letter-spacing: 0.02em;
+  margin-left: 0;
 }
+
+.list-item{
+  background-color: #FFFFFF;
+  
+  display: flex;
+}
+
+
 .nav_link:hover,
 .nav_link:focus {
   color: #404bbf;
@@ -53,6 +159,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
+  gap: 40;
+  
 }
 
 .contacts{
@@ -63,18 +172,20 @@ body {
 
 }
 
-/* .adress-company:hover,
-.adress-company:focus {
-  color: #404bbf;
-} */
+
 
 .contacts:hover,
 .contacts:focus {
   color: #404bbf;
 }
 
+
+/* ==============HERO=============== */
+
 .hero {
   background-color: #2e2f42;
+  /* padding: 188px 0 292 0; */
+  padding: 188px 0;
 }
 
 .hero_title {
@@ -86,6 +197,11 @@ body {
   line-height: 1.07;
   /* 107.143% */
   letter-spacing: 0.02em;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  
 }
 
 .hero_button {
@@ -96,7 +212,18 @@ body {
   line-height: 1.5;
   /* 150% */
   letter-spacing: 0.04em;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  width: 169px;
+  border: none;
   cursor: pointer;
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  /* gap: 10px; */
+  margin-left: 636px;
+  margin-right: 636px;
+  margin-bottom: 188px;
 }
 .hero_button:hover,
 .hero_button:focus {
@@ -104,13 +231,30 @@ body {
   color: #fff;
 }
 
+/* ==========BENEFITS=BUM============== */
+
+.benefits{
+  padding: 120px 0;
+}
+
 .bum_title {
+  margin-bottom: 8px;
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  /* 120% */
+  
   letter-spacing: 0.02em;
+}
+
+.bum-list{
+  display: flex;
+  column-gap: 24px;
+}
+
+.list-item-bum{
+  flex-basis: calc((100% - 72px) / 4);
+  list-style: none;
 }
 
 .bum_text {
@@ -121,19 +265,23 @@ body {
   letter-spacing: 0.02em;
 }
 
+
+/* ============OUR TEAM=========== */
+
 .team_main_title {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  /* 111.111% */
+  
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
 .team-member{
   background-color:  #F4F4FD;
+  padding: 180px auto;
 }
 
 .team_title {
@@ -179,9 +327,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-.list-item{
-    background-color: #FFFFFF;
-}
 
 .portfolio_text {
   color: #434455;
