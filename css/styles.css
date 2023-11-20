@@ -139,7 +139,7 @@ align-items: center;
   background-color: #FFFFFF;
   
  margin-right: 40px;
- display: flex;
+ 
 }
 
 .list-item:last-child {
@@ -167,7 +167,7 @@ align-items: center;
   margin-right: auto;
 }
 
-.address-list{
+.adress-list{
   display: flex;
     column-gap: 40px;
 }
