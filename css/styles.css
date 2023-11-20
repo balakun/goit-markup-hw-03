@@ -223,13 +223,15 @@ align-items: center;
   width: 169px;
   border: none;
   cursor: pointer;
-  display: inline-flex;
+  display:  block;
   padding: 16px 32px;
   align-items: flex-start;
   /* gap: 10px; */
   margin-left: 636px;
   margin-right: 636px;
   margin-bottom: 188px;
+  min-width: 169px;
+  height: 56px;
 }
 .hero_button:hover,
 .hero_button:focus {
