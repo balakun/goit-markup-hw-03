@@ -378,9 +378,9 @@ align-items: center;
 
   .portfolio-description{
     padding: 32px 16px;
-    text-align: left;
-    border-top: none;
-    border: 1px solid  #E7E9FC;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
   }
 
  
