@@ -111,7 +111,7 @@ align-items: center;
   /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-   
+    margin-right: 76px;
 }
 
 .studio_logo {
@@ -125,7 +125,7 @@ align-items: center;
   text-transform: uppercase;
   /* padding-top: 24px;
   padding-bottom: 24px; */
-  margin-right: 76px;
+ 
 }
 .nav_link {
   display: block;
