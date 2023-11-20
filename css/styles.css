@@ -259,7 +259,7 @@ align-items: center;
 }
 
 .list-item-bum{
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   list-style: none;
   margin-right: 24px;
   
