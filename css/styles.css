@@ -255,13 +255,21 @@ align-items: center;
 
 .bum-list{
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .list-item-bum{
   flex-basis: calc((100% - 72px) / 4);
   list-style: none;
+  margin-right: 24px;
+  
+
 }
+
+.list-item-bum:last-child{
+  margin-right: 0;
+}
+
 
 .bum_text {
   color: #434455;
