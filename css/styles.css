@@ -173,7 +173,8 @@ align-items: center;
 
 .list-item-adress{
    margin-right: 40px;
-}
+  display: flex; 
+  }
 
 .list-item-adress:last-child{
   margin-right: 0;
