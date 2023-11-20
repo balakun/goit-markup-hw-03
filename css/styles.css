@@ -79,14 +79,17 @@ section{
 }
 
 .header-container {
-  /* display: flex; */
-  justify-content: space-between;
-  align-items: center;
- padding-top: 24px;
-  padding-bottom: 24px;
+   display: flex;
+    justify-content: space-between;
+
 }
 
-.header-left-list {
+.page-navigation{
+  display: flex;
+    align-items: center;
+}
+
+.header-list {
 display: flex;
 justify-content: space-between;
 width: 261px;
@@ -97,14 +100,7 @@ align-items: center;
 
 }
 
-.header-right-list{
-  display: flex;
-  column-gap: 40px;
-  width: 344px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  align-items: center;
-}
+
 
 .web_logo {
   color: #4d5ae5;
@@ -127,28 +123,26 @@ align-items: center;
   /* 116.667% */
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
   margin-right: 76px;
 }
 .nav_link {
-  color: #2e2f42;
-
-  /* Body Medium */
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  /* 150% */
-  letter-spacing: 0.02em;
-  margin-left: 0;
-  padding: 24px 0; 
   display: block;
+    color: #2E2F42;
+    font-weight: 500;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .list-item{
   background-color: #FFFFFF;
   
-  display: flex;
+ margin-right: 40px;
+}
+
+.list-item:last-child {
+    margin-right: 0px;
 }
 
 
@@ -156,6 +150,8 @@ align-items: center;
 .nav_link:focus {
   color: #404bbf;
 }
+
+
 .adress-company {
   font-style: normal;
    color: #434455;
@@ -170,11 +166,27 @@ align-items: center;
   margin-right: auto;
 }
 
+.address-list{
+  display: flex;
+    column-gap: 40px;
+}
+
+.list-item-adress{
+   margin-right: 40px;
+}
+
+.list-item-adress:last-child{
+  margin-right: 0;
+}
+
 .contacts{
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
 }
 
