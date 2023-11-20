@@ -275,12 +275,13 @@ align-items: center;
 }
 
 .list-item-bum{
+  
   width: calc((100% - 72px) / 4);
   list-style: none;
   margin-right: 24px;
-  
-
 }
+
+
 
 .list-item-bum:last-child{
   margin-right: 0;
