@@ -29,8 +29,8 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
-  width: 1440px;
-  margin: 0 auto;
+  
+  
 }
 
 .link {
@@ -278,7 +278,7 @@ align-items: center;
   
   width: calc((100% - 72px) / 4);
   list-style: none;
-  margin-right: 24px;
+  /* margin-right: 24px; */
 }
 
 
