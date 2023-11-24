@@ -60,10 +60,7 @@ body {
 max-width: 1158px;
 margin: 0 auto;
 padding: 0 15px;
-/* padding-left:  15px;
-padding-right: 15px;  
-margin-left:  auto;
-margin-right:  auto; */
+
 }
 
 section{
@@ -92,10 +89,10 @@ section{
 .header-list {
 display: flex;
 justify-content: space-between;
-width: 261px;
+/* width: 261px; */
 column-gap: 40;
-padding-top: 24px;
-padding-bottom: 24px;
+/* padding-top: 24px;
+padding-bottom: 24px; */
 align-items: center;
 
 }
@@ -161,10 +158,10 @@ align-items: center;
   letter-spacing: 0.02em;
   display: flex;
   gap: 40;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
   margin-left: auto;
-  margin-right: auto;
+  /* margin-right: auto; */
 }
 
 .adress-list{
@@ -238,12 +235,12 @@ align-items: center;
   border: none;
   cursor: pointer;
   display:  block;
-  padding: 16px 32px;
+  /* padding: 16px 32px; */
   align-items: flex-start;
   /* gap: 10px; */
-  margin-left: 636px;
-  margin-right: 636px;
-  margin-bottom: 188px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: 188px; */
   min-width: 169px;
   height: 56px;
 }
@@ -427,7 +424,7 @@ align-items: center;
   line-height: 1.5;
   /* 150% */
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
+  /* padding-bottom: 32px; */
 }
 
 
@@ -453,7 +450,7 @@ align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 .footer_text {
